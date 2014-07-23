@@ -101,8 +101,8 @@ setup(
                'pandacommon.pandautils',
               ],
     data_files=[ 
-                ('etc/panda',  
-                 ['templates/panda_common.cfg.rpmnew.template']
+                ('/etc/panda',
+                 ['templates/panda_common.cfg.template']
                  ),
                 ],
     cmdclass={'install': install_panda,
